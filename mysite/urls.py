@@ -18,7 +18,7 @@ from django.urls import path,include
 from myblog import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.index,name='home'),
+    path('',views.index,name='index'),
     path('add/',views.add,name='add'),
     path('add2/<int:a>/<int:b>',views.add2,name='add2'),
 ]
