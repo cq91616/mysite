@@ -21,4 +21,5 @@ urlpatterns = [
     path('',views.index,name='index'),
     path('add/',views.add,name='add'),
     path('add2/<int:a>/<int:b>',views.add2,name='add2'),
+    path('templatesTest/',views.temtest)
 ]
