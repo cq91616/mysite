@@ -4,6 +4,7 @@
     <list default="true" id="82b8ffdf-f3e0-41cf-acff-63824eddf4e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +49,8 @@
         <counts>
           <entry key="html" value="700" />
           <entry key="ini" value="2" />
-          <entry key="py" value="582" />
-          <entry key="txt" value="35" />
+          <entry key="py" value="599" />
+          <entry key="txt" value="65" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
@@ -57,8 +58,8 @@
         <counts>
           <entry key="HTML" value="700" />
           <entry key="Ini" value="2" />
-          <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="582" />
+          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="Python" value="599" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
@@ -69,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+            <state relative-caret-position="550">
+              <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -96,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myblog/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="154">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -319,7 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542360908864</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="base.html + bootstrap">
+      <created>1542615809703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542615809703</updated>
+    </task>
+    <task id="LOCAL-00004" summary="base.html + bootstrap">
+      <created>1542616141985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542616141985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -358,7 +373,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="templates test" />
     <MESSAGE value="uwsgi auto reboot" />
-    <option name="LAST_COMMIT_MESSAGE" value="uwsgi auto reboot" />
+    <MESSAGE value="base.html + bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="base.html + bootstrap" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/checks/registry.py">
@@ -456,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myblog/templates/_top.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -477,10 +486,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myblog/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="154">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
