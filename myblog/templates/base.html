@@ -2,11 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TEST Base</title>
+    <link rel="stylesheet" href="{{ STATIC_URL }}/css/bootstrap.min.css">
+    <script src="{{ STATIC_URL }}/js/jquery.min.js"></script>
+    <script src="{{ STATIC_URL }}/js/popper.min.js"></script>
+    <script src="{{ STATIC_URL }}/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BASE HTML</title>
 </head>
 <body>
 {% include "_top.html" %}
-<p>This is base content</p>
+<div class="container">
+    <h1>Terrence's blog</h1>
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">类型</button>
+
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">安全</a>
+            <a class="dropdown-item" href="#">自动化</a>
+            <a class="dropdown-item" href="#">其他</a>
+        </div>
+    </div>
+</div>
 {% include "_bottom.html" %}
 </body>
 </html>
