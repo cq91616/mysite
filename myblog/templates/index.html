@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
-    <script src="../../static/js/jquery.min.js"></script>
-    <script src="../../static/js/popper.min.js"></script>
-    <script src="../../static/js/bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Terrence's blog</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}
+<title>Terrence's Blog</title>
+{% endblock %}
 
-<div class="container">
-    <h1>Terrence's blog</h1>
-    <div class="dropdown">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">类型</button>
-
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">安全</a>
-            <a class="dropdown-item" href="#">自动化</a>
-            <a class="dropdown-item" href="#">其他</a>
-        </div>
-    </div>
-
-</div>
-</body>
-</html>
+{% block content %}
+<h1>Blank Now</h1>
+{% endblock %}

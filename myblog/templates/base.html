@@ -8,22 +8,15 @@
     <script src="{% static 'js/popper.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% block title %}
     <title>BASE HTML</title>
+    {% endblock %}
 </head>
 <body>
 {% include "_top.html" %}
-<div class="container">
-    <h1>Terrence's blog</h1>
-    <div class="dropdown">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">类型</button>
-
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">安全</a>
-            <a class="dropdown-item" href="#">自动化</a>
-            <a class="dropdown-item" href="#">其他</a>
-        </div>
-    </div>
-</div>
+{% block content %}
+<p>base Content</p>
+{% endblock %}
 {% include "_bottom.html" %}
 </body>
 </html>
