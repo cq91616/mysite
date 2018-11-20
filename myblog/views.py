@@ -21,3 +21,6 @@ def  add2(request,a,b):
 
 def top(request):
     return render(request,'_top.html')
+
+def base(request):
+    return  render(request,'base.html')
