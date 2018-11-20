@@ -23,5 +23,5 @@ urlpatterns = [
     path('add2/<int:a>/<int:b>',views.add2,name='add2'),
     path('top/',views.top),
     path('base/',views.base),
-    path('about',views.about,name='about')
+    path('about/',views.about,name='about')
 ]
