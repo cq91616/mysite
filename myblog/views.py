@@ -19,5 +19,5 @@ def  add2(request,a,b):
     c=int(a)+int(b)
     return HttpResponse(str(c))
 
-def temtest(request):
-    return render(request,'base.html')
+def top(request):
+    return render(request,'_top.html')
